@@ -1,6 +1,6 @@
 {
   "name": "parse-ms",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A better time converter for your projects.",
   "main": "main.js",
   "scripts": {
@@ -14,10 +14,7 @@
   },
   "author": "Shreyash",
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.27.0",
-    "moment-duration-format": "^2.3.2"
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/ShreyashKira/parse-ms/issues"
   },
