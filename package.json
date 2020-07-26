@@ -1,0 +1,14 @@
+{
+  "name": "parse-ms",
+  "version": "1.0.0",
+  "description": "A better time converter for your projects.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ms"
+  ],
+  "author": "Shreyash",
+  "license": "MIT"
+}
