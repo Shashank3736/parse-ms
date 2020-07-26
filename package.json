@@ -12,7 +12,6 @@
   "repository": {
     "url": "git+https://github.com/ShreyashKira/parse-ms.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "Shreyash",
   "license": "MIT",
   "dependencies": {},

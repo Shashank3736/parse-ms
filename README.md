@@ -4,12 +4,8 @@ Parse ms is a Node js library to convert human-readable format into milliseconds
 
 ## Installation
 
-Use the package manager [**npm**](https://pip.pypa.io/en/stable/) to install parse-ms.
-Type `npm install ShreyashKira/parse-ms#master`
-
-
-Note: Currently this repo do not have any npm library so you must install git in order to install this repo
-
+Use the package manager **npm** to install parse-ms.
+Type `npm install @shreyash21/ms`
 
 ```bash
 npm install ShreyashKira/parse-ms
