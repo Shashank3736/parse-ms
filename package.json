@@ -10,12 +10,17 @@
     "ms"
   ],
   "repository": {
-    "url": "https://github.com/ShreyashKira/parse-ms"
+    "url": "git+https://github.com/ShreyashKira/parse-ms.git"
   },
   "author": "Shreyash",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.27.0",
     "moment-duration-format": "^2.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ShreyashKira/parse-ms/issues"
+  },
+  "homepage": "https://github.com/ShreyashKira/parse-ms#readme",
+  "devDependencies": {}
 }
