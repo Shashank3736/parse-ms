@@ -1,3 +1,4 @@
+[![forkBadge](https://img.shields.io/github/stars/ShreyashKira/parse-ms)](https://github.com/ShreyashKira/parse-ms/)
 # parse-ms
 
 Parse ms is a Node js library to convert human-readable format into milliseconds and viceversa.
