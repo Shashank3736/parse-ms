@@ -9,6 +9,13 @@
   "keywords": [
     "ms"
   ],
+  "repository": {
+    "url": "https://github.com/ShreyashKira/parse-ms"
+  },
   "author": "Shreyash",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2"
+  }
 }
