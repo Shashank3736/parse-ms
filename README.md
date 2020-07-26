@@ -8,7 +8,7 @@ Use the package manager **npm** to install parse-ms.
 Type `npm install @shreyash21/ms`
 
 ```bash
-npm install ShreyashKira/parse-ms
+npm install @shreyash21/ms
 ```
 
 ## Usage
@@ -25,5 +25,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+I would love if you update my README.md file
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
