@@ -22,6 +22,9 @@ ms("5 days, 4hours and 3 minutes."); //return 446580000
 ms("446580000", {short: true}); //return 5d 4h 3m
 ms(446580000, {extended: true}); //return 5 days 4 hours 3 minutes
 ms(446580000); //return { days: 5, hours: 4, minutes: 3, seconds: 0}
+ms("-86400000"); //return {days: -1, hours: -0, minutes: -0, seconds: -0}
+ms("- 1 day"); //return -86400000
+ms("-21 days and 24 hours"); //returns -1900800000
 ```
 
 #### It supports almost every time units like 
@@ -40,6 +43,8 @@ days, day, d etc.
 ###### For years:
  years, year, yrs, y etc.
 
+
+##### -ve values are also supported. As you see in above examples.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
