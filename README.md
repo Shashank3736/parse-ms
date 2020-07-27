@@ -14,7 +14,7 @@ npm install @shreyash21/ms
 ## Usage
 
 ```javascript
-const ms = require('parse-ms');
+const ms = require('@shreyash21/ms');
 
 ms("1 week and 23 days"); //return 2592000000
 ms("2592000000", {short: true}); //return 30d
