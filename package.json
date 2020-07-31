@@ -1,6 +1,6 @@
 {
   "name": "@shreyash21/ms",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A better time converter for your projects.",
   "main": "main.js",
   "scripts": {
