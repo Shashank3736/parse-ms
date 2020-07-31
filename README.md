@@ -25,6 +25,10 @@ ms(446580000); //return { days: 5, hours: 4, minutes: 3, seconds: 0}
 ms("-86400000"); //return {days: -1, hours: -0, minutes: -0, seconds: -0}
 ms("- 1 day"); //return -86400000
 ms("-21 days and 24 hours"); //returns -1900800000
+//what about some more changed
+ms("1.2 million", {type: "num"}); //return 1200000
+ms("2.3 billion and 1.2 million", {type: "num"}); //return 2301200000
+ms("1k", {type: "num"}); //return 1000
 ```
 
 #### It supports almost every time units like 
@@ -45,6 +49,19 @@ days, day, d etc.
 
 
 ##### -ve values are also supported. As you see in above examples.
+
+#### It also supports some daily life values like 2k
+
+**For 1000:**
+kilo, kilos, k etc.
+
+**For million:**
+millions, million, mil, m etc.
+
+**For billion:**
+billions, billion, bil, b etc.
+
+And many more..... like gillion and trillion also supported.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

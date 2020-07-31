@@ -1,6 +1,17 @@
 const ms = require('./index');
+const conv = require('./converter');
 
 module.exports = (val, options = {}) => {
+  if(options.type && options.type === 'num') {
+    const match = /(-?[0-9.]+) *(kilos?|kilo?|k|millions?|million?|mil?|m|billions?|billion?|bil?|b|trillions?|trillion?|t|gillions?|gillion?|gil?|g)/gi
+    const array = val.match(match)
+    if(!array) return;
+    const result = array.reduce((a, b) =>
+    (isNaN(a) ? conv(a): a) +
+    ((isNaN(a) ? conv(a): a) < 0 ? -conv(b):conv(b))
+    , 0)
+    return result;
+  }
   if (!isNaN(val)) {
     val = parseInt(val)
     let roundTowardsZero = val > 0 ? Math.floor : Math.ceil;
