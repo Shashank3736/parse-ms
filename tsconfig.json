@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "removeComments": false,
+        "alwaysStrict": true,
+        "pretty": false,
+        "module": "commonjs",
+        "target": "es2019",
+        "lib": [
+            "esnext",
+            "esnext.array",
+            "esnext.asynciterable",
+            "esnext.intl",
+            "esnext.symbol"
+        ],
+        "sourceMap": false,
+        "skipDefaultLibCheck": true,
+        "outDir": "./dist"
+    },
+    "exclude": [".github/", "assets/", "docs/", "examples/", "node_modules/"],
+    "include": ["src/"]
+}
